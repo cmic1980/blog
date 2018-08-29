@@ -3,7 +3,7 @@ title: Spring Boot 自动加载组件 （@ComponentScan注解）
 date: 2015-07-29 20:35:28
 tags:
 ---
-## @ComponentScan注解
+@ComponentScan注解
 
 一个类被Spring自动加载到Bean容器里面需要2个条件：
 1. 这个类需要被@Component或它的子类注释为组件，@Component的常用子类有@Service, @Repository, @Controll，@Configuration 等。
