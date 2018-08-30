@@ -30,6 +30,5 @@ public class Application implements CommandLineRunner {
 
 ### @Component注释
 
-并不是所有在被扫描的包中所有类都会被加入到Spring的Bean容器，只有被@Component注释的类才会被加载到Bean容器中。
-Spring中经常使用的@Controller，@Service，@Repository，@Configuration类都是@Component子类，所有使用这些注释的类会被加载到Bean容器中。
+并不是所有在被扫描的包中所有类都会被加入到Spring的Bean容器，只有被@Component注释的类才会被加载到Bean容器中。Spring中经常使用的@Controller，@Service，@Repository，@Configuration类都是@Component子类，所有使用这些注释的类会被加载到Bean容器中。
 
