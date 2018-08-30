@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 乖乖象的窝
+title: 乖乖象的博客
 subtitle:
 description:
 keywords:
@@ -78,4 +78,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/cmic1980/cmic1980.github.io.git
+  branch: master
